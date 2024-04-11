@@ -1,2 +1,9 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿open System.IO
+open System.IO.Compression
+
+
+let fendDirectory = Directory.CreateDirectory("fend")
+let bendDirectory = Directory.CreateDirectory("bend")
+let callsDirectory = Directory.CreateDirectory("calls")
+
+printfn "directories created ..."
