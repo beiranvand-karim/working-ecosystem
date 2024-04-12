@@ -1,9 +1,9 @@
 ﻿open System.IO
 open System.IO.Compression
 
+let outcomeDirectory = Directory.CreateDirectory("outcome")
+let fendDirectory = Directory.CreateDirectory("outcome/fend")
+let bendDirectory = Directory.CreateDirectory("outcome/bend")
+let callsDirectory = Directory.CreateDirectory("outcome/calls")
 
-let fendDirectory = Directory.CreateDirectory("fend")
-let bendDirectory = Directory.CreateDirectory("bend")
-let callsDirectory = Directory.CreateDirectory("calls")
-
-printfn "directories created ..."
+printfn "directories created, copy the content of outcome ..."
