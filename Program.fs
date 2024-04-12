@@ -1,4 +1,6 @@
-﻿open System.IO
+﻿module EcoSystem.Scripts
+
+open System.IO
 open System.IO.Compression
 
 let outcomeDirectory = Directory.CreateDirectory("outcome")
