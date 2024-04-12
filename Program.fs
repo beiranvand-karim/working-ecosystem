@@ -34,6 +34,6 @@ let callsDirectory = Directory.CreateDirectory("outcome/calls")
 printfn "directories created, copy the content of outcome ..."
 
 
-let result = executeProcess "explorer" "C:\\feature namings\\toli\\cuda\\material selection\\fend"
-let result = executeProcess "explorer" "C:\\feature namings\\toli\\cuda\\material selection\\bend"
-let result = executeProcess "explorer" "C:\\feature namings\\toli\\cuda\\material selection\\calls"
+let openFend = executeProcess "explorer" "C:\\feature namings\\toli\\cuda\\material selection\\fend"
+let openBend = executeProcess "explorer" "C:\\feature namings\\toli\\cuda\\material selection\\bend"
+let openCalls = executeProcess "explorer" "C:\\feature namings\\toli\\cuda\\material selection\\calls"
